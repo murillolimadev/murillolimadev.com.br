@@ -1,6 +1,6 @@
 @extends('admin.layout.app')
 @section('title', 'Home')
-
+{{-- test git --}}
 @section('content')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
