@@ -21,6 +21,14 @@
 
     {{-- matas tags wt --}}
     <meta property="og:site_name" content="Murillo Lima">
+    <meta property="og:title" content="Murillo Lima - Developer Full Stack">
+    <meta property="og:description" content="Developer Full Stack">
+    <meta property="og:image" itemprop="image"
+        content="{{ asset('home/img/favicon.png') }}">
+    <meta property="og:type" content="website">
+
+    {{-- matas tags wt --}}
+    <meta property="og:site_name" content="Murillo Lima">
     <meta property="og:title" content="">
     <meta property="og:description" content="Programador Full Stack Senior">
     <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
