@@ -14,6 +14,11 @@
     <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon" />
     <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
     <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
+
+    {{-- favicon --}}
+    <link rel="icon" href="{{ asset('home/img/favicon.png') }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ asset('home/img/favicon.png') }}" rel="icon">
+
     {{-- matas tags wt --}}
     <meta property="og:site_name" content="Murillo Lima">
     <meta property="og:title" content="">
