@@ -53,7 +53,7 @@
                 <img src="{{ asset('home/img/banner/banner-man.png') }}" alt="img">
             </div>
             <span class="fz-30 mati fw-600 text-uppercase">
-                Murillo Lima
+                Murillo Lima<p style="color: #FFF;">Developer Full Stack</p>
             </span>
         </div>
     </div>
