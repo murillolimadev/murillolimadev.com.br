@@ -80,7 +80,7 @@
                                     <button type="submit" value="Enviar mensagem" name="store"
                                         class=" border-0 d-flex fw-500 cmn--btn align-items-center gap-2">
                                         <span class="get__text">
-                                            Enviar mensagem
+                                            Enviar 
                                         </span>
                                         <span>
                                             <i class="bi bi-arrow-right fz-20"></i>
