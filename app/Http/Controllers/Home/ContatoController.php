@@ -37,7 +37,7 @@ class ContatoController extends Controller
     {
         $request->validate([
             'name' => 'required',
-            'email' => 'required|unique:users|email',
+            'email' => 'required|email',
             'subject' => 'required',
             'content' => 'required'
         ]);
