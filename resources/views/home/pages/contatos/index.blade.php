@@ -40,6 +40,38 @@
                             website: www.murillolimadev.com.br <br>
                             e-mail: contato@murillolimadev.com.br <br>
                             Telefone: (99)991106799 <br>
+                            <div class="menu__components d-flex align-items-center">
+                                <a href="https://wa.me/5599991106799"
+                                    class="d-flex fw-500 cmn--btn align-items-center gap-2">
+                                    <span class="get__text">
+                                        Whatsapp
+                                    </span>
+                                    <span>
+                                        <i class="bi bi-arrow-right fz-20"></i>
+                                    </span>
+                                </a>
+                                <div class="header-bar d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+
+                                <a href="{{ route('home.pages.fale') }}" style="margin-left: 5px;"
+                                    class="d-flex fw-500 cmn--btn align-items-center gap-2">
+                                    <span class="get__text">
+                                        Enviar mensagem
+                                    </span>
+                                    <span>
+                                        <i class="bi bi-arrow-right fz-20"></i>
+                                    </span>
+                                </a>
+                                <div class="header-bar d-lg-none">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -73,6 +105,9 @@
                                 Centro - Estreito-MA
                             </span>
                         </div>
+
+
+
                     </div>
                 </div>
             </div>

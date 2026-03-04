@@ -27,11 +27,7 @@
                     <a href="{{ route('home.pages.aplicativo') }}">Aplicativo
                     </a>
                 </li>
-                <li>
-                    <a href="{{ route('home.pages.fale') }}">
-                        Fale comigo
-                    </a>
-                </li>
+               
                 <li>
                     <a href="{{ route('home.pages.contatos') }}">
                         Contatos
