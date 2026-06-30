@@ -23,8 +23,7 @@
                         </h1>
                         <div class="video__area">
                             <img src="{{ asset('home/img/banner/bn-arrow.png') }}" class="vid__arrow" alt="img">
-                            <a href="https://www.youtube.com/watch?v=eqzMmuCDXy8"
-                                class="video__80 video-btn">
+                            <a href="https://www.youtube.com/watch?v=eqzMmuCDXy8" class="video__80 video-btn">
                                 <i class="bi bi-play-fill"></i>
                             </a>
                             <span class="proces">
@@ -270,14 +269,14 @@
                                             Minhas Experiências
                                         </h2>
                                         <p>
-                                            Durante meu percurso profissional de 6 anos como desenvolvedor full stack,
+                                            Durante meu percurso profissional de 8 anos como desenvolvedor full stack,
                                             trabalhei em diferentes projetos desafiadores. Um desses projetos foi a criação
                                             de um sistema de gerenciamento de vendas para uma empresa de e-commerce. Nesse
                                             projeto, tive a oportunidade de aplicar minhas habilidades de desenvolvimento
                                             tanto no front-end, utilizando HTML, CSS e JavaScript, quanto no back-end,
-                                            utilizando PHP e MySQL. Além disso, pude trabalhar em equipe, colaborando com
-                                            outros desenvolvedores e designers para entregar um produto final de alta
-                                            qualidade.
+                                            utilizando PHP/Laravel e MySQL. Além disso, pude trabalhar em equipe,
+                                            colaborando com outros desenvolvedores e para entregar um produto final de alta
+                                            qualidade (Aplicativo).
                                         </p>
                                         <div class="exprience__box mt-30">
                                             <div class="exri__item">
