@@ -269,7 +269,7 @@
                                             Minhas Experiências
                                         </h2>
                                         <p>
-                                            Durante meu percurso profissional de 8 anos como desenvolvedor full stack,
+                                            Durante meu percurso profissional de <?php echo date('Y') - 2014; ?> anos como desenvolvedor full stack,
                                             trabalhei em diferentes projetos desafiadores. Um desses projetos foi a criação
                                             de um sistema de gerenciamento de vendas para uma empresa de e-commerce. Nesse
                                             projeto, tive a oportunidade de aplicar minhas habilidades de desenvolvimento
