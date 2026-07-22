@@ -7,38 +7,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Murillo Lima - @yield('title')</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
-    <link href="{{ asset('home/img/logo/favicon.ico') }}" rel="shortcut icon" type="image/x-icon" />
-    <link rel="icon" href="{{ asset('home/img/logo/favicon.png') }}" sizes="any" />
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" rel="icon" />
-    <link rel="icon" type="image/png" href="{{ asset('home/img/logo/favicon.png') }}" />
-    <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
 
-    {{-- favicon --}}
-    <link rel="icon" href="{{ asset('home/img/favicon.png') }}" sizes="any">
-    <link rel="icon" type="image/png" href="{{ asset('home/img/favicon.png') }}" rel="icon">
-
-    {{-- matas tags wt --}}
-    <meta property="og:site_name" content="Murillo Lima">
-    <meta property="og:title" content="Murillo Lima - Developer Full Stack">
-    <meta property="og:description" content="Developer Full Stack">
-    <meta property="og:image" itemprop="image"
-        content="{{ asset('home/img/favicon.png') }}">
-    <meta property="og:type" content="website">
-
-    {{-- matas tags wt --}}
-    <meta property="og:site_name" content="Murillo Lima">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="Programador Full Stack Senior">
-    <meta property="og:image" itemprop="image" content="{{ asset('home/img/logo/favicon.png') }}">
-    <link rel="stylesheet" href="{{ asset('home/css/bootstrap.min.css') }}">
-    <!--<< Aos animation css >>-->
-    <link rel="stylesheet" href="{{ asset('home/css/aos.css') }}">
-    <!--<< Main.css >>-->
-    <link rel="stylesheet" href="{{ asset('home/css/main.css') }}">
     {{-- icons --}}
-    <link rel="icon" href="{{ asset('home/img/logo/favicon.ico') }}" sizes="any">
+    <link rel="icon" href="{{ asset('home/img/icon.png') }}" sizes="any">
+<head>
+    {{-- whatsapp img --}}
+    <meta property="og:title" content="Murillo Lima" />
+    <meta property="og:description" content="Developer Full Stack" />
+    <meta property="og:image" content="{{ asset('home/img/icon.png') }}" />
+    <meta property="og:url" content="https://murillolimadev.com.br/" />
+    <meta property="og:image:width" content="100" />
+    <meta property="og:image:height" content="100" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
