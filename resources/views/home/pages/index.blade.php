@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-8">
-                    <div class="banner__content">
+                    <div class="banner__content" style="padding: 50px">
                         <a href="#" class="bn__currently">
                             <span class="d-block">
                                 Atualmente disponível para freelance
@@ -18,8 +18,9 @@
                             </span>
                         </a>
                         <h1>
-                            <span class="hone"> Murillo Lima</span>
+                            <span class="hone"> Murillo Lima</span><br>
                             <span class="d-block designers" data-text="Developer">Developer</span>
+                            <span style="font-size: 65px">Full Stack</span>
                         </h1>
                         <div class="video__area">
                             <img src="{{ asset('home/img/banner/bn-arrow.png') }}" class="vid__arrow" alt="img">
@@ -34,7 +35,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="banner__thumb" data-aos="fade-up-right" data-aos-duration="300">
-                        <img src="{{ asset('home/img/banner/banner-man.png') }}" width="100%" alt="man-img">
+                        <img src="{{ asset('home/img/banner/banner-man.png') }}" alt="man-img">
                     </div>
                 </div>
             </div>
@@ -134,7 +135,7 @@
             <div class="personal__head text-center">
                 <img src="{{ asset('home/img/about/section-star.png') }}" class="mb-30" alt="star" data-aos="fade-up"
                     data-aos-duration="1000">
-                <p class="descrp" data-aos="fade-up" data-aos-duration="1500">
+                <p class="descrp" data-aos="fade-up" data-aos-duration="1500" style="text-align: center">
                     Sou Murillo Lima, trabalho de forma independente, atuo com o desenvolvimento web e mobile.
                 </p>
             </div>
@@ -606,7 +607,7 @@
                                         </h3>
                                     </a>
                                     <a href="{{ $item->url }}" target="_blank" class="common__icon">
-                                        <i class="bi bi-arrow-up-right"></i>
+                                        Ver
                                     </a>
                                 </div>
                             </div>
