@@ -2,24 +2,23 @@
 <html lang="en">
 
 <head>
-    <!--<< Required meta tags >>-->
-    <meta charset="UTF-8">
+    <title>Murillo Lima</title>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Murillo Lima - @yield('title')</title>
 
-    {{-- icons --}}
-    <link rel="icon" href="{{ asset('home/img/icon.png') }}" sizes="any">
-<head>
     {{-- whatsapp img --}}
     <meta property="og:title" content="Murillo Lima" />
     <meta property="og:description" content="Developer Full Stack" />
-    <meta property="og:image" content="{{ asset('home/img/icon.png') }}" />
-    <meta property="og:url" content="https://murillolimadev.com.br/" />
+
+    <meta property="og:image" content="https://murillolimadev.com.br/home/img/icon.png" />
+    <meta property="og:url" content="https://murillolimadev.com.br/home/img/icon.png" />
     <meta property="og:image:width" content="100" />
     <meta property="og:image:height" content="100" />
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!--<< Aos animation css >>-->
+    <link rel="stylesheet" href="{{ asset('home/css/aos.css') }}">
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="{{ asset('home/css/main.css') }}">
 
 
 </head>
