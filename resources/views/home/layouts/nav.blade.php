@@ -27,7 +27,7 @@
                     <a href="{{ route('home.pages.aplicativo') }}">Aplicativo
                     </a>
                 </li>
-               
+
                 <li>
                     <a href="{{ route('home.pages.contatos') }}">
                         Contatos
@@ -41,7 +41,7 @@
                         Whatsapp
                     </span>
                     <span>
-                        <i class="bi bi-arrow-right fz-20"></i>
+                        <img src="{{ asset('home/img/icon-wt.png') }}" width="30px" alt="">
                     </span>
                 </a>
                 <div class="header-bar d-lg-none">
